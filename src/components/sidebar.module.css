@@ -1,0 +1,113 @@
+.container {
+    /* border: 1px solid white; */
+    border-radius: 12px;
+    height: 94vh;
+    width: 64px;
+    margin: 3vh;
+    background:transparent;
+    background-color: #3f4b6d;
+    color: #3f4b6d;
+    padding-top: 4px;
+
+}
+
+.box{
+    display: flex;
+    /* border: 1px solid black; */
+    position: fixed;
+}
+
+.activeNavlink svg{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nonActive {
+    color: gray;
+    text-decoration: none;
+}
+
+.logo {
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+    height: 100px;
+}
+
+.logo svg{
+    margin: -28px 3px 5px 18px;
+}
+
+.top {
+    margin-top: 10px;
+    height: 60px;
+}
+.mid{
+    height: auto;
+}
+.icons a {
+    color: #b7bdd1;
+    font-size: 22px;
+
+}
+.icons a svg{
+    margin: 30px 21px;
+}
+
+.bottom{
+    /* border: 1px solid red; */
+    height: 120px;
+    margin-top: 30vh;
+    padding: 10px 18px;
+}
+.lightTheme{
+    font-size: 30px;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.darkTheme{
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(15, 15, 15);
+    transition: 1s;
+}
+.avatar{
+    /* border: 0.5px solid white; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 16px -4px;
+    margin-top: -30px;
+}
+.avatar img{
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+}
+.logout{
+    /* border: 1px solid red; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+.logout svg{
+    color: white;
+    font-size: 32px;
+}
+
+
+
+
+
+
+/* ===============================================================
+ */
+
+
+ 

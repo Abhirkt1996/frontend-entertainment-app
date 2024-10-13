@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Entertainment App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Entertainment App is a platform where you can find the latest movies and TV series. You can view the IMDb ratings for any movie or TV series and watch trailers. You can also add movies and series to your bookmarks.
+ 
+## Acknowledgements
 
-## Available Scripts
+- Website link: https://frontend-entertainment-app.vercel.app/
+- Backend link: https://entertainment-backend-1.onrender.com/
+- GitHub repo link: https://github.com/Abhirkt1996/entertaiment-web-app
+- Backend link: https://entertainment-backend-1.onrender.com 
 
-In the project directory, you can run:
+## Tech Stack Used
 
-### `npm start`
+- React.js
+- Redux.js
+- Node.js
+- Express.js
+- MongoDB
+- Chakra UI
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployments
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The full-stack app is deployed on Netlify:  
+  
 
-### `npm test`
+- Backend is deployed on Render:  
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Start
 
-### `npm run build`
+To run this project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local path.
+2. Run the command `npm run start` in the terminal to start the frontend.
+3. Run the command `npm run server` to start the Express server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Environment Variables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run this project, you will need to add the following environment variables to your `.env` file:
 
-### `npm run eject`
+- `MONGO_URL`: Your MongoDB URL.
+- `GOOGLE_CLIENT_ID` & `GOOGLE_CLIENT_SECRET`: For Google OAuth.
+- `OAUTH_CALLBACK_URL`: Redirect path after Google OAuth for the backend.
+- `CALLBACK_URL`: Redirect path after Google OAuth for the frontend.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here is a brief description of the Entertainment App:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Landing Page**: The landing page includes a navbar on the left side, trending movies slider, and recommended movies.
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Movies Section**: View all movies and search for any movie.
 
-## Learn More
+- **TV Series Section**: Similar functionality as the movies section.
+ 
+- **Individual Pages**: Each movie and series has an individual page where you can see all details.
+ 
+- **Bookmark Functionality**: Add any movie or series to your bookmarks using the bookmark flag.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Bookmark Section**: View your bookmarked movies.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Authentication Redirect**: If you try to bookmark a movie without being authenticated, you will be redirected to the login page.
+ 
+- **Google OAuth**: Log in with your Google account.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

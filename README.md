@@ -7,7 +7,7 @@ The Entertainment App is a platform where you can find the latest movies and TV 
 - Website link: https://frontend-entertainment-app.vercel.app/
 - Backend link: https://entertainment-backend-1.onrender.com/
 - GitHub repo link: https://github.com/Abhirkt1996/entertaiment-web-app
-- Backend link: https://entertainment-backend-1.onrender.com 
+
 
 ## Tech Stack Used
 
@@ -21,11 +21,11 @@ The Entertainment App is a platform where you can find the latest movies and TV 
 
 ## Deployments
 
-- The full-stack app is deployed on Netlify:  
-  
+- The full-stack app is deployed on Vercel:  
+  https://frontend-entertainment-app.vercel.app/
 
 - Backend is deployed on Render:  
-  
+   https://entertainment-backend-1.onrender.com/
 
 ## How to Start
 
